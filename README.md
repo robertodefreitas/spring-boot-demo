@@ -17,14 +17,15 @@ https://start.spring.io
   * Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
 
 ## JSON EXAMPLES
-`GET localhost:8080/api/v1/person` 
 ### INPUT
+`POST localhost:8080/api/v1/person`
 ```
 {
     "name": "Vorname Nachname"
 }
 ``` 
 ### OUTPUT
+`GET localhost:8080/api/v1/person`
 ```
 [
     {
